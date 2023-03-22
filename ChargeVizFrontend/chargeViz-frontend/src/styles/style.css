@@ -1,0 +1,102 @@
+.mapBox {
+    height:550px;
+    width:100%;
+    display: flex;
+    padding: 20px;
+}
+
+.mapWrapper {
+    height: 100%;
+    flex: 1 0 0;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+button, input[type=button] {
+     background-color: cadetblue;
+     color: white;
+    border: none;
+    border-radius:10px;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+button:hover, input[type=button]:hover {
+      opacity: 0.8;
+  }
+.list {
+    font-family: "Franklin Gothic Medium ";
+    margin-right: 3%;
+    font-size: 30px;
+    display: inline-flex;
+    width: 20%;
+}
+
+
+.container {
+    padding: 16px;
+}
+#loginBtn{
+    margin: 0;
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+#logoutBtn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.centerAddCancel{
+    margin: 0 auto;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.centerUpdateDeleteCancel{
+    margin: 0 auto;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#center{
+    margin: 0 auto;
+}
+
+label {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #B4886B;
+    font-weight: bold;
+    font-size: 24px;
+    width: 80px;
+    padding: 25px;
+
+
+}
+input {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: static;
+    padding: 15px 12px;
+    box-shadow: 3px 3px 5px grey;
+    font-size: 16px;
+    font-weight: 600;
+    width: 200px;
+}
